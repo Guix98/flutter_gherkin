@@ -16,18 +16,20 @@ dependencies:
     sdk: flutter
   flutter_driver:
     sdk: flutter
-  analyzer: '>=2.1.0 < 6.0.0'
+  analyzer: ^7.6.0
   collection: ^1.15.0
-  gherkin: ^3.1.0
-  source_gen: ^1.1.1
-  build: ^2.1.1
+  gherkin:
+    git:
+      url: "https://github.com/Guix98/dart_gherkin"
+      ref: "master"
+  source_gen: ^3.0.0
+  build: ^3.0.0
   glob: ^2.0.2
 
 dev_dependencies:
-  meta: '>=1.7.0 < 2.0.0'
+  meta: ">=1.7.0 < 2.0.0"
   pedantic: ^1.11.1
   build_config: ^1.0.0
   flutter_lints: ^2.0.1
-  dart_code_metrics: ^4.16.0
 
 flutter:
